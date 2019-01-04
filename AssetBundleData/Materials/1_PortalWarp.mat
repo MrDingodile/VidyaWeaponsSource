@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 1_PortalOpenVFX01
+  m_Shader: {fileID: 4800000, guid: 91e6103473d1405418b5f7f36ffa72c9, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Distortion
+      second:
+        m_Texture: {fileID: 2800000, guid: 6c7630e2eba1c6b41a9d569b99351bae, type: 3}
+        m_Scale: {x: 3, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Tex01
+      second:
+        m_Texture: {fileID: 2800000, guid: b38ae0f0cd367e3469b4e7b0fe381a31, type: 3}
+        m_Scale: {x: 4, y: 0.4}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: <noninit>
+      second: 0
+    - first:
+        name: _DistortionPower
+      second: 3.5
+    - first:
+        name: _FinalPower
+      second: 2
+    m_Colors:
+    - first:
+        name: <noninit>
+      second: {r: 0, g: 2.0182498, b: 1e-45, a: -1.3874394e-21}
+    - first:
+        name: _TintColor
+      second: {r: 0.77205884, g: 0.30349898, b: 0, a: 1}

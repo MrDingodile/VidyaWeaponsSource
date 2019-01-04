@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 1_Spark
+  m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: ae7f8a210e7415441bc1cc93778a8ff3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _BumpAmt
+      second: 6
+    - first:
+        name: _Cutoff
+      second: 1
+    - first:
+        name: _EdgeAlpha
+      second: 1
+    - first:
+        name: _FrezFalloff
+      second: 1.1153846
+    - first:
+        name: _FrezPow
+      second: 2
+    - first:
+        name: _Gloss
+      second: 0
+    - first:
+        name: _InvFade
+      second: 1.4016418
+    - first:
+        name: _Metalics
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _Reflection
+      second: 1
+    - first:
+        name: _RimPower
+      second: 1.0769231
+    - first:
+        name: _Scale
+      second: 1
+    - first:
+        name: _Shininess
+      second: 0.01
+    - first:
+        name: _SquashAmount
+      second: 1
+    - first:
+        name: _WaveSpeed
+      second: 0
+    - first:
+        name: _WaveStrength
+      second: 0.104477614
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.014705896, g: 0, b: 0, a: 1}
+    - first:
+        name: _Color2
+      second: {r: 1, g: 0.43448272, b: 0, a: 1}
+    - first:
+        name: _Emission
+      second: {r: 0.38235295, g: 0.11866123, b: 0, a: 0}
+    - first:
+        name: _ReflectColor
+      second: {r: 1, g: 0.351724, b: 0, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 1, g: 0.31034487, b: 0, a: 0}
+    - first:
+        name: _Scale
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _SpecColor
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _TintColor
+      second: {r: 1, g: 0.2743408, b: 0.007352948, a: 1}
+    - first:
+        name: _TransColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _WaveSpeed
+      second: {r: 3.04, g: 3.81, b: 1.8, a: 1.66}
+    - first:
+        name: _WaveX
+      second: {r: -0.38, g: 0.05, b: 0.86, a: 1.39}
+    - first:
+        name: _WaveZ
+      second: {r: -0.02, g: -0.06, b: 0, a: 0}
